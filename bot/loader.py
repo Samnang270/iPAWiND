@@ -1,7 +1,6 @@
 import sqlite3
 
 from aiogram import Bot, Dispatcher
-from aiogram.bot.api import TelegramAPIServer
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 from bot.config import bot_token, accounts, reseller_accounts, api_id, api_hash
@@ -9,7 +8,7 @@ from bot.utils.r2 import R2Storage
 from pyrogram import Client 
 
 server = TelegramAPIServer.from_base("http://localhost:81")
-bot = Bot(bot_token, server=server)
+bot = Bot(bot_token)
 pyrogram_bot = Client(name="pyrobot", api_id=api_id, api_hash=api_hash, bot_token=bot_token, no_updates=True, max_concurrent_transmissions=20)
 
 dp = Dispatcher(bot, storage=MemoryStorage())
