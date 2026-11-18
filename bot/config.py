@@ -1,13 +1,13 @@
-api_id = 8  # get this from my.telegram.org
-api_hash = "7245de8e747a0d6fbe11f7cc14fcc0bb" # get this from my.telegram.org
-bot_token = "Your Bot Token"  # get it from @botfather
-server_address = "Your-url-shortner-api" # your url shortner api
+api_id = 30215079  # get this from my.telegram.org
+api_hash = "529efffdc4de7009d7b7514b54aa0dd7" # get this from my.telegram.org
+bot_token = "8834455555:AAGfoQUgVv2r9aCuN6plxCXRsn7iMNEMDaM"  # get it from @botfather
+server_address = "https://7559de3627702042016e5211631ad5c3.r2.cloudflarestorage.com/ipawind-apps" # your url shortner api
 
 PASSWORD = "1"
 api_key = ""
 api_urls = []
 
-admin = [719363292] # add your telegram user ID
+admin = [7069590773] # add your telegram user ID
 reseller = []
 
 web_path = "/var/www/html"
